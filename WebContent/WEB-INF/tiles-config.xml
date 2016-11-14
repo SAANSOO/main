@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions 
+	PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<!-- tiles 설정 파일 / tiles.apache.org 가서 참조 -->
+<tiles-definitions>
+	<definition name="t:default" template="/WEB-INF/view/template.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/common/search.jsp" />
+		<put-attribute name="body" value="/WEB-INF/view/common/main.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/view/common/banner.jsp" />
+	</definition>
+	<definition name="t:join" template="/WEB-INF/view/template.jsp">
+		<put-attribute name="header" value="/WEB-INF/view/common/search.jsp" />
+		<put-attribute name="body" value="/WEB-INF/view/member/join.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/view/common/banner.jsp" />
+	</definition>
+	<!-- tiles extends 지원 / override 일정부분-->
+	<definition name="t:newsfeed" extends="t:default">
+		<put-attribute name="body" value="/WEB-INF/view/news/feedlist.jsp" />
+	</definition>
+</tiles-definitions>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
