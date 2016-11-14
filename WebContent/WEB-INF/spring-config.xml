@@ -14,7 +14,7 @@
 	<bean class="org.springframework.web.servlet.view.tiles3.TilesConfigurer"
 		id="tilesConfigurer">
 		<property name="definitions">
-			<list>
+			<list>    
 				<value>/WEB-INF/tiles-config.xml</value>
 				<value>/WEB-INF/wild-tiles-config.xml</value>
 			</list>
